@@ -37,4 +37,5 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency('sinatra')
   gem.add_runtime_dependency('rack')
   gem.add_runtime_dependency('rest-client')
+  gem.add_runtime_dependency('logging')
 end

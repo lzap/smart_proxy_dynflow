@@ -48,7 +48,7 @@ module SmartProxyDynflowCore
 
     def install_usr1_trap
       trap(:USR1) do
-        Log.instance.roll_log
+        Log.reopen
       end
     end
 
